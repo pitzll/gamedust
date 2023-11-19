@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamedust</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Sans">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; /* Added for vertical alignment of buttons */
+            height: 100vh;
+            margin: 0;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        /* Added button styling */
+        .button-container {
+            margin-top: 20px; /* Added for spacing */
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 10px;
+            background-color: #4285f4; /* Example background color */
+            color: #ffffff; /* Example text color */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gamedust</h1>
+
+    <!-- Added button container -->
+    <div class="button-container">
+        <button onclick="buttonClick()">Click me</button>
+        <!-- Add more buttons as needed -->
+    </div>
+
+    <!-- Optional: Add a script for button functionality -->
+    <script>
+        function buttonClick() {
+            alert('Button clicked!');
+            // Add your button click functionality here
+        }
+    </script>
+</body>
+</html>
